@@ -33,7 +33,17 @@ Uruchomienie przykładu dostępne w katalogu:
 
 * [ROSKinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu/) - Środowisko ROS wersja Kinetic
 
+## Naprawa błędów
 
+* Brak lub błędy w plikach nagłówkowych dla symulatora ETH (pakiet free_gait)
+```
+  free_gait/free_gait_core/include/free_gait_core/executor/Executor.hpp
+  free_gait/free_gait_core/include/free_gait_core/executor/executor.hpp
+  free_gait/free_gait_core/include/free_gait_core/step/step.hpp
+  free_gait/free_gait_core/include/free_gait_core/step/Step.hpp
+```
+
+Dostępne na https://github.com/leggedrobotics/free_gait
 ## Autorzy
 
 * **Marian Wojtkowiak** 
