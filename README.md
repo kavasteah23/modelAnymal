@@ -21,20 +21,20 @@ Instalacja symulatorów odbywa się według dołączonych dokumentacji.
 * Symulator ETH
 Uruchomienie podstawowej symulacji ANYmal:
 ```
-roslaunch anymal_sim sim.launch
+  roslaunch anymal_sim sim.launch
 ```
 * Symulator PUT
 Uruchomienie przykładu dostępne w katalogu:
 ```
-Samples/Bin/SimpleViewer
+  Samples/Bin/SimpleViewer
 ```
 
-## Built With
+## Niezbędne pakiety
 
 * [ROSKinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu/) - Środowisko ROS wersja Kinetic
 
 
-## Authors
+## Autorzy
 
 * **Marian Wojtkowiak** 
 * **Przemysław Muszyński** - [kavasteah23](https://github.com/kavasteah23)
