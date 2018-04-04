@@ -1,60 +1,33 @@
 # modelAnymal
 
-Model robota AnyMAL (ETH) w symulatorze PUT.
+Model robota ANYmal (ETH) w symulatorze PUT.
 
 ## Wprowadzenie
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Projekt mający na celu przeniesienie modelu robota kroczącego ANYmal środowisku ROS z nakładką ETH (Swiss Federal Institute of Technology in Zurich) do symulatora PUT (Poznan University of Technology), a następnie zaimplementowanie modułu esytmacji poślizgu.
 
-### Prerequisites
+### Wymagania
+* Środowisko ROS kinetic 
+* Symulator PUT wraz z niezbędnymi pakietami 
+* Symulator ETH wraz z niezbędnymi pakietami
 
-What things you need to install the software and how to install them
+### Instalacja komponentów
 
+Instalacja symulatorów odbywa się według dołączonych dokumentacji.
+
+
+## Uruchomienie symulatorów
+
+* Symulator ETH
+Uruchomienie podstawowej symulacji ANYmal:
 ```
-Give examples
+roslaunch anymal_sim sim.launch
 ```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
+* Symulator PUT
+Uruchomienie przykładu dostępne w katalogu:
 ```
-Give the example
+Samples/Bin/SimpleViewer
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
