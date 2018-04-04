@@ -66,6 +66,6 @@ Add additional notes about how to deploy this on a live system
 ## Authors
 
 * **Marian Wojtkowiak** 
-* **Przemysław Muszyński** 
+* **Przemysław Muszyński** - [kavasteah23](https://github.com/kavasteah23)
 
 
