@@ -42,6 +42,7 @@ Uruchomienie przykładu dostępne w katalogu:
   free_gait/free_gait_core/include/free_gait_core/step/step.hpp
   free_gait/free_gait_core/include/free_gait_core/step/Step.hpp
 ```
+* Brak biblioteki Octomap
 
 Dostępne na https://github.com/leggedrobotics/free_gait
 ## Autorzy
