@@ -46,9 +46,7 @@ Uruchomienie przykładu dostępne w katalogu:
 
 Dostępne na https://github.com/leggedrobotics/free_gait
 
-* Instalacja openNI
 
-Dostępne na https://github.com/cjcase/openGeppetto/wiki/Installing-OpenNI-on-Ubuntu
 
 ## Autorzy
 
