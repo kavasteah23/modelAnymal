@@ -32,6 +32,8 @@ Uruchomienie przykładu dostępne w katalogu:
 ## Niezbędne pakiety
 
 * [ROSKinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu/) - Środowisko ROS wersja Kinetic
+* [OpenCV] - Najnowsza wersja (3.4.x)
+* [RealSense] - librealsense (1.12.x)
 
 ## Naprawa błędów
 
