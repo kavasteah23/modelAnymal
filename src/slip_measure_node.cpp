@@ -26,6 +26,7 @@ void positionCallback(const visualization_msgs::MarkerArray& msg){
 /* Function callback for leg 0 forces topic (very similiar four callbacks) - 
    publish slip Vector3 to topic when foot is in the air */
 void forceLFCallback(const geometry_msgs::WrenchStamped& msg){
+    // Bool value used for calculate and publish slip only once per air-ground sequence
     static bool toggleState = false;
     // Check if force is very small; if true: foot is in the air
     if (forceDist(msg.wrench.force)<0.01){
