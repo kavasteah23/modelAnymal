@@ -6,8 +6,8 @@ Projekt mający na celu przeniesienie modelu robota kroczącego ANYmal środowis
 
 ### Wymagania
 * Środowisko ROS kinetic 
-* Symulator PUT wraz z niezbędnymi pakietami 
-* Symulator ETH wraz z niezbędnymi pakietami
+* Symulator PUT wraz z niezbędnymi pakietami - dostarczone przez prowadzącego (niepubliczne)
+* Symulator ETH wraz z niezbędnymi pakietami - dostarczone przez prowadzącego (niepubliczne)
 
 ### Instalacja komponentów
 
