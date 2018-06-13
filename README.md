@@ -6,8 +6,8 @@ Projekt mający na celu przeniesienie modelu robota kroczącego ANYmal środowis
 
 ### Wymagania
 * Środowisko ROS kinetic 
-* Symulator PUT wraz z niezbędnymi pakietami 
-* Symulator ETH wraz z niezbędnymi pakietami
+* Symulator PUT wraz z niezbędnymi pakietami - dostarczone przez prowadzącego (niepubliczne)
+* Symulator ETH wraz z niezbędnymi pakietami - dostarczone przez prowadzącego (niepubliczne)
 
 ### Instalacja komponentów
 
@@ -29,7 +29,7 @@ Uruchomienie programu:
 ## Pakiet ROS do badania poślizgu robota ANYmal
 * Instalacja pakietu dla przestrzeni roboczej robota ANYmal
 ```
-catkin build slip_measure
+catkin build slip_measure roscpp rospy visualization_msgs geometry_msgs
 ```
 * Uruchomienie pakietu (po uruchomieniu symulatora ETH)
 ```
