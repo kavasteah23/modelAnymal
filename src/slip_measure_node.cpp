@@ -23,7 +23,8 @@ void positionCallback(const visualization_msgs::MarkerArray& msg){
         act_pos[i].z = msg.markers[i].pose.position.z;        
     }
 } // Feet count: 0 - LF,1 - RF,2 - LH,3 -RH
-/* Function callback for leg 0 forces topic (very similiar four callbacks) */
+/* Function callback for leg 0 forces topic (very similiar four callbacks) - 
+   publish slip Vector3 to topic when foot is in the air */
 void forceLFCallback(const geometry_msgs::WrenchStamped& msg){
     static bool toggleState = false;
     // Check if force is very small; if true: foot is in the air
