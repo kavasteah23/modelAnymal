@@ -1,7 +1,5 @@
 # modelAnymal
 
-Model robota ANYmal (ETH) w symulatorze PUT oraz pakiet ROS do obliczania poślizgu nóg. 
-
 ## Wprowadzenie
 
 Projekt mający na celu przeniesienie modelu robota kroczącego ANYmal środowisku ROS z nakładką ETH (Swiss Federal Institute of Technology in Zurich) do symulatora PUT (Poznan University of Technology), a następnie zaimplementowanie modułu esytmacji poślizgu.
