@@ -1,6 +1,6 @@
 # modelAnymal
 
-Model robota ANYmal (ETH) w symulatorze PUT.
+Model robota ANYmal (ETH) w symulatorze PUT oraz pakiet ROS do obliczania poślizgu nóg. 
 
 ## Wprowadzenie
 
