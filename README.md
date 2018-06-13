@@ -49,14 +49,14 @@ rostopic echo slip_leg0
 
 ## Naprawa błędów
 
-* Brak lub błędy w plikach nagłówkowych dla symulatora ETH (pakiet free_gait)
+* Brak lub błędy w plikach nagłówkowych dla symulatora ETH (pakiet free_gait), poprawne dostępne w repozytorium https://github.com/leggedrobotics/free_gait
 ```
   free_gait/free_gait_core/include/free_gait_core/executor/Executor.hpp
   free_gait/free_gait_core/include/free_gait_core/executor/executor.hpp
   free_gait/free_gait_core/include/free_gait_core/step/step.hpp
   free_gait/free_gait_core/include/free_gait_core/step/Step.hpp
 ```
-Dostępne na https://github.com/leggedrobotics/free_gait
+
 
 * Brak biblioteki Octomap
 
