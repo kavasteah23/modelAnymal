@@ -13,22 +13,34 @@ Projekt mający na celu przeniesienie modelu robota kroczącego ANYmal środowis
 
 ### Instalacja komponentów
 
-Instalacja symulatorów odbywa się według dołączonych dokumentacji.
-
+Instalacja symulatorów odbywa się według dołączonych instrukcji i dokumentacji.
 
 ## Uruchomienie symulatorów
 
-* Symulator ETH
+* Symulator ETH (wersja ROS)
 Uruchomienie podstawowej symulacji ANYmal:
 ```
+  source ~/catkin_ws/devel/setup.bash
   roslaunch anymal_sim sim.launch
 ```
 * Symulator PUT
-Uruchomienie przykładu dostępne w katalogu:
+Uruchomienie programu:
 ```
-  Samples/Bin/SimpleViewer
+  ./build/bin/demoVisualizer
 ```
-
+## Pakiet ROS do badania poślizgu robota ANYmal
+* Instalacja pakietu dla przestrzeni roboczej robota ANYmal
+```
+catkin build slip_measure
+```
+* Uruchomienie pakietu (po uruchomieniu symulatora ETH)
+```
+rosrun slip_measure slip_measure_node
+```
+* Odczyt wartości poprzez nasłuchiwanie topiców dla każdej nogi (slip_leg0,slip_leg1,slip_leg2,slip_leg3)
+```
+rostopic echo slip_leg0
+```
 ## Niezbędne pakiety
 
 * [ROSKinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu/) - Środowisko ROS wersja Kinetic
@@ -44,9 +56,11 @@ Uruchomienie przykładu dostępne w katalogu:
   free_gait/free_gait_core/include/free_gait_core/step/step.hpp
   free_gait/free_gait_core/include/free_gait_core/step/Step.hpp
 ```
+Dostępne na https://github.com/leggedrobotics/free_gait
+
 * Brak biblioteki Octomap
 
-Dostępne na https://github.com/leggedrobotics/free_gait
+
 
 
 
