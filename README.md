@@ -29,7 +29,7 @@ Uruchomienie programu:
 ## Pakiet ROS do badania poślizgu robota ANYmal
 * Instalacja pakietu dla przestrzeni roboczej robota ANYmal
 ```
-catkin build slip_measure
+catkin build slip_measure roscpp rospy visualization_msgs geometry_msgs
 ```
 * Uruchomienie pakietu (po uruchomieniu symulatora ETH)
 ```
